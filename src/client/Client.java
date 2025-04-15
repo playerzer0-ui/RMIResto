@@ -14,6 +14,7 @@ import java.util.logging.Logger;
 public class Client {
     public static void main(String[] args) {
         try{
+            //search for the resto with the hotline
             IMenu menu = (IMenu) Naming.lookup("rmi://localhost:12345/resto");
 
             Scanner sc = new Scanner(System.in);
