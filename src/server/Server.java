@@ -42,7 +42,7 @@ public class Server {
             System.out.println("RMI registry cannot be located at port " + RMIPortNum);
 
             // Create a registry on the given port number
-            Registry registry = LocateRegistry.createRegistry(RMIPortNum);
+            LocateRegistry.createRegistry(RMIPortNum);
             System.out.println("RMI registry created at port " + RMIPortNum);
         }
     } // end startRegistry

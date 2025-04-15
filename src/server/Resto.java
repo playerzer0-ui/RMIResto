@@ -1,5 +1,7 @@
 package server;
 
+import common.IMenu;
+
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
